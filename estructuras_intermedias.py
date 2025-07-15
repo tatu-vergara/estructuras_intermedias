@@ -41,3 +41,10 @@ costa_rica = {
    "ciudades": ["San José", "Limón", "Cartago", "Puntarenas"],
    "comidas": ["gallo pinto", "casado", "tamales", "chifrijo", "olla de carne"]
 }
+
+for clave, lista in costa_rica.items():
+    print(len(lista), clave.upper())
+    for elemento in lista:
+        print(elemento)
+
+print(len(costa_rica))
